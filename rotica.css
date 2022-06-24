@@ -1,0 +1,68 @@
+* {padding: 0; margin: 0;}
+
+/*Scroll Bar Css*/
+::-webkit-scrollbar {width: 8px} 
+::-webkit-scrollbar-track {background: rgba(0,0,0,0.1)} 
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.3); border-radius: 1px} 
+::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+/* End */
+
+/*Navbar*/
+.navbar {padding: 12px 0; background: #1572A1}
+.nav-flex {display: flex; justify-content: space-between; align-items: center; width: 85%; margin: 0 auto;}
+.nav-flex ul {list-style: none;}
+.nav-flex ul li {display: inline-block}
+.nav-flex ul li:not(:last-child) {margin-right: 15px;}
+.nav-flex ul li a {text-decoration: none; color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 16px;}
+.nav-flex ul li a:hover {text-decoration: underline;}
+.logo {font-family: 'Raleway', sans-serif; font-size: 25px; font-weight: 600; color: #fff}
+.logo span {font-size: 14px; font-weight: 500}
+
+/*Password Generator*/
+.password-gen {background: ; padding-top: 50px;}
+.password-output {position: relative; width: 48%; background: #cfefff; margin: 0 auto; text-align: center; font-family: 'Poppins', sans-serif; padding: 60px 50px; font-size: 20px; border: 2px solid #1572A1}
+.copy-password {width: 87%; text-align: center; background: rgba(31, 163, 19, 0); color: rgba(0,0,0,0); position: absolute; top: 0; left: 0; padding: 64px 50px; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 18px; transition: 0.3s;}
+.copy-password:hover {background: rgba(31, 163, 19, 0.918); color: #fff; cursor: pointer}
+.generate-btn {background: skyblue; width: 20%; margin: 10px auto}
+.btn {background: #1572A1; color: #fff; border: none; padding: 10px 105px; font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: 500; transition: 0.2s;}
+.btn:hover {cursor: pointer; background: #337ea3}
+
+/*Password Control*/
+.password-control {background: #FEF5ED; display: flex; width: 55%; margin: 0 auto; text-align: center; align-items: center; padding: 5px; margin-top: 30px}
+.pswd-length {background: ; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 17px; width: 23%}
+.pswd-length input {font-family: 'Montserrat', sans-serif; font-weight: 500; padding: 2px 5px; font-size: 15px; width: 70px; margin-left: 5px; outline: none; border: 1px solid #111;}
+.included-chars {background: ; font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 16px; display: flex; align-items: center;}
+.included-chars p {display: inline-block; font-size: 17px; margin-right: 10px;}
+.chars {display: flex; align-items: center;}
+.chars input {width: 20px; height: 20px; cursor: pointer; margin-left: 5px;}
+.chars:not(:last-child) {margin-right: 20px}
+
+/*Password Strength*/
+.password-strength {background: #FEF5ED; width: 56%; height: 15px; margin: 0 auto; margin-top: 20px; border: 1px solid #111; position: relative;}
+.progress-bar {width: 100%; height: 15px; background: #1572A1; transition: 0.8s;}
+.password-strength-div {width: 100%; margin-top: 10px; text-align: center;}
+.password-strength-text {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+    
+/*Password Crack Time*/
+.crack-time {width: 31%; margin: 0 auto; margin-top: 50px; display: flex; justify-content: space-between; align-items: center; border: 1px dashed #111; padding: 10px}
+.time-to-crack {font-family: 'Poppins', sans-serif;}
+.time {font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 25px;}
+
+/*Short About*/
+.short-about {width: 85%; margin: 0 auto; margin-top: 30px;}
+.short-about p {font-family: 'Montserrat', sans-serif; text-align: center; font-size: 14px; font-weight: 400;}
+
+/*Description*/
+.description {width: 79%; margin: 0 auto; background: #d9f3ff; color: #111; padding: 35px;  margin-bottom: 15px; margin-top: 50px}
+.description h2 {font-family: 'Montserrat', sans-serif; font-weight: 500; margin-bottom: 10px; font-size: 25px}
+.description p {margin-bottom: 10px; font-family: 'Poppins', sans-serif; font-size: 15px;}
+
+/*Footer*/
+.footer {background: #1572A1; color: #fff; padding: 20px 0;}
+.footer-links {width: 51%; margin: 10px auto;}
+.footer-links a:not(:last-child) {margin-right: 10px;}
+.footer-links a {font-family: 'Montserrat', sans-serif; text-decoration: none; color: #fff; font-size: 14px; font-weight: 500;}
+.footer-links a:hover {text-decoration: underline;}
+.credit {width: 15%; margin: 0 auto; font-family: 'Montserrat'; font-size: 12px;}
+.credit span {font-size: 18px; font-weight: 400;}
+.copyright {width: 22%; font-family: 'Montserrat', sans-serif; margin: 0 auto; font-size: 13px; font-weight: 400;}
